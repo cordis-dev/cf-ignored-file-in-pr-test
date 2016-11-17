@@ -2,7 +2,7 @@
     {
         public void M()
         {
-            dynamic context = null;
+            dynamic context=null;
             context.Request.Form["IntProperty_00"] = "1";
             context.Request.Form["IntProperty_01"] = "2";
             context.Request.Form["IntProperty_02"] = "3";
